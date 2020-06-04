@@ -155,7 +155,7 @@
  */
 
 typedef uint bn_word;
-#define BN_NBITS 256
+#define BN_NBITS 70
 #define BN_WSHIFT 5
 #define BN_WBITS (1 << BN_WSHIFT)
 #define BN_NWORDS ((BN_NBITS/8) / sizeof(bn_word))
